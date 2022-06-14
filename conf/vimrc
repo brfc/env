@@ -1,0 +1,38 @@
+" Set numbers
+set number
+
+" Turn syntax hightlighting on
+syntax on
+
+" Highlight cursor line underneath the cursor horizontally
+set cursorline
+
+" Set tab width to 4 columns
+set shiftwidth=4
+
+" Set shift width to 4 spaces
+set tabstop=4
+
+" While searching though a file incrementally highlight matching characters as you type.
+set incsearch
+
+" Ignore capital letters during search
+set ignorecase
+
+" Show the mode you are on the last line
+set showmode
+
+" Show matching words during a search
+set showmatch
+
+" Set the commands to save in history default number is 20
+set history=1000
+
+" Enable auto completion menu after pressing TAB
+set wildmenu
+
+" Make wildmenu behave like similar to Bash completion
+set wildmode=list:longest
+
+" Set the colunm number at the screen bottom
+set ruler
